@@ -1,0 +1,294 @@
+body {
+    background:#f9f4f4;
+    margin:0;
+    font-family: georgia, arial, serif;
+}
+.header {
+    width:100%;
+    height:70px;
+}
+.logo{
+    width:150;
+    height:33;
+    padding-left:20px;
+    padding-top:20px;
+    float:left;
+    cursor:pointer;
+}
+.search-content {
+    background: #FFFFFF;
+    width: 930px;
+    height: 48px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 12px;
+}
+.search-box {
+    border: 1px solid #D3BCA1;
+    width: 820px;
+    margin-left: 12px;
+    height: 20px;
+}
+.search-button {
+    width: 65px;
+    height: 26px;
+    margin-right: 7px;
+    background: #461200;
+    border: 1px solid #300D00;
+}
+.fa {
+    color:white;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+  }
+  
+.menu-bar ul li {
+    float: left;
+  }
+  
+.menu-bar li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:14px;
+  }
+.menu-bar li a:hover {
+    background:#7B997C;
+  }
+  .image-part {
+    float:left;
+  }
+  .box-table {
+    margin-top:12px;
+    margin-left:12px;
+    background:white;
+    font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+  .box-table-first {
+    width:880px;
+    height:60px;
+    font-size: 16px;
+    text-align: justify;
+    padding-left:10px;
+  }
+  .youtube-join {
+    color:#610b4b;
+    font-size:22px;
+  }
+  .join-now a{
+    color:#339933;
+    font-size:22px;
+    text-decoration:none;
+  }
+  .join-now a:hover {
+    text-decoration:underline;
+    color:red;
+  }
+  .training-table {
+    padding-left:10px;
+    padding-top:10px;
+  }
+  .training-image {
+    width:350px;
+    height:250px;
+    cursor:pointer;
+  }
+  .tr-img-margin {
+    margin-left:65px;
+  }
+  .content-part {
+    float:left;
+    width:644px;
+    height:1500px;
+  }
+  .add {
+    padding-left:150px;
+    padding-top:15px;
+  }
+  .side-table {
+    border-left:7px solid #95CC97;
+    width:435px;
+    height:50px;
+    text-align:center;
+    background:#F6F9EE;
+    color:#610B4B;
+    font-size:21px;
+    margin-left: 75px;
+    margin-top: 30px;
+    font-family: erdana,helvetica,arial,sans-serif;
+  }
+  .feedback {
+    margin-left: 131px;
+    display: list-item;
+    color: #202020;
+    font-size: 15px;
+    font-family: erdana,helvetica,arial,sans-serif;
+    font-weight: normal;
+    cursor:auto;
+  }
+  .tutorials {
+    margin-top:12px;
+    margin-left:12px;
+    background:white;
+    padding-left:40px;
+  }
+  .tutorial-heading {
+    color:  #610b4b;
+    font-size:21px;
+    font-weight:400;
+    font-family: erdana,helvetica,arial,sans-serif;
+  }
+  .tutorial-table {
+    border-spacing:10px;
+    padding-bottom:20px;
+  }
+  .tutorial-table td{
+    border:1px solid #efe8e8;
+    font-size:16px;
+    padding: 10px 20px 10px 20px;
+    color:green;
+    text-align:center;
+    cursor:pointer;
+  }
+  .list-item {
+    line-height:25px;
+    padding-left:90px;
+  }
+  .list-item li a{
+    color:green;
+    text-decoration:none;
+    font-family: erdana,helvetica,arial,sans-serif;
+    font-size:14px;
+    font-weight:normal;
+  }
+  .author {
+    margin-top:10px;
+    margin-left:10px;
+    background-color:white;
+    font-size: 16px;
+    text-align: justify;
+    width:100%;
+    height:200px;
+    font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+  .author-pic {
+    width:180px;
+    height:168px;
+  }
+  .author-image {
+    float:left;
+  }
+  .author-msg {
+    float:left;
+    margin-left:30px;
+  }
+  .services {
+    width:100%;
+    height:560px;
+    background:#4D56E3;
+    color:#FFFFFF;
+    float:left;
+    font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+.java-header {
+  margin-left:20px;
+  line-height:1.3em;
+}
+.java-para {
+  margin-left:20px;
+  line-height:28px;
+}
+.services li {
+  list-style-type:circle;
+  line-height:28px;
+}
+.training-campus {
+  width:100%;
+  height:200px;
+  padding-top:40px;
+  background:#BF7223;
+  float:left;
+  color:white;
+  font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.training-head {
+  padding-left:20px;
+}
+.training-para{
+  line-height:28px;
+  padding-left:20px;
+}
+.newsletter {
+  float:left;
+  width:100%;
+  height:60px;
+  background:#F9F4F4;
+  text-align:center;
+  color:#202020;
+  font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.footer {
+  width:100%;
+  height:370px;
+  background:#4CAF50;
+  float:left;
+  color:white;
+  font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.footer-sec {
+float:left;
+width:23%;
+padding-left:20px;
+}
+.footer-head {
+  text-transform:uppercase;
+  line-height:1.3em;  
+  padding-left:35px;
+}
+.footer li {
+  list-style-type:none;
+  line-height:25px;
+}
+.footer li a {
+  text-decoration:none;
+  color:white;
+  font-size:14px;
+}
+.footer a:hover {
+  text-decoration:underline;
+}
+.copyright {
+  width:100%;
+  background:#3B753D;
+  height:90px;
+  float:left;
+  color:white;
+  text-align:center;
+  font-size:14px;
+  font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding-top:20px;
+}
+.author a {
+  text-decoration:none;
+  color:green;
+}
+.author a:hover {
+  color:red;
+}
+.add a:hover{
+  cursor:pointer;
+}
+.list-item a:hover {
+  text-decoration:underline;
+  color:red;
+}
